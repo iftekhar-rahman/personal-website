@@ -214,6 +214,17 @@ h6 {
     border-radius: 20px;
     box-shadow: 0px 0px 20px #ddd;
     margin-bottom: 20px;
+    position: relative;
+}
+.testimonial-text:after {
+    position: absolute;
+    left: 50%;
+    top: -17px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #fff;
+    content: "";
+    transform: translate(-50%, 0px);
 }
 
 /* .footer-area */
