@@ -46,16 +46,19 @@ h6 {
     float: right;
 }
 .highlighted-text {
-    color: #ff8367;
+    color: #e8505b;
 }
 .btn {
-    background-color: #ff8367;
+    background-color: #e8505b;
     color: #fff;
     text-decoration: none;
     padding: 16px 35px;
     display: inline-block;
     border-radius: 5px;
-    background-image: linear-gradient(180deg, #f46060, #fd7862);
+    background-image: linear-gradient(180deg, #e8505b, #fd7862);
+}
+.btn:hover {
+    background-image: linear-gradient(180deg, #e8505b, #e8505b);
 }
 
 /* .header-area */
@@ -81,7 +84,7 @@ h6 {
     font-weight: 500;
 }
 .mainmenu ul li:hover a {
-    color: #f56260;
+    color: #e8505b;
 }
 
 /* .hero-area */
