@@ -124,6 +124,12 @@ h6 {
 .about-section-right .about-inner {
     padding-left: 100px;
 }
+.about-section-right .about-inner img {
+    max-width: 14px;
+    margin-right: 7px;
+    position: relative;
+    bottom: -2px;
+}
 
 /* .project-area */
 .project-title {
