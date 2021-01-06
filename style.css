@@ -14,6 +14,9 @@ img {
     max-width: 100%;
     width: auto;
 }
+a {
+    text-decoration: none;
+}
 
 /* common CSS */
 h1,
